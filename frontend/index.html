@@ -80,11 +80,12 @@
         if (window["WebSocket"]) {
             console.log("supports websockets");
             // Connect to websocket
-            conn = new WebSocket("ws://" + document.location.host + "/ws");
+            conn = new WebSocket("ws://127.0.0.1:8080/ws");
         } else {
             alert("Not supporting websockets");
         }
     };
+    
 </script>
 
 <style type="text/css">

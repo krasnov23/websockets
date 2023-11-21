@@ -24,3 +24,4 @@ func setUpApi() {
 	http.HandleFunc("/ws", newManager.ServeWS)
 
 }
+
